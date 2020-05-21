@@ -9,14 +9,14 @@ package Week1.Task1;
  */
 public class Task1 {
     public static void main (String[] args){
-         int x = 5;
-         int y = 3;
+        int x = 5;
+        int y = 3;
 
-         // int sum = sum();
-         // int difference = subtract();
+        // int sum = sum();
+        // int difference = subtract();
 
-         // System.out.println(sum);
-         // System.out.println(difference);
+        // System.out.println(sum);
+        // System.out.println(difference);
     }
 
     /* расскоментировать и дописать код
