@@ -17,6 +17,12 @@ class Dog{
 }
 
 class Shepherd extends Dog{
+    String command = "sit";
+
+    @Override
+    public void say(){
+        System.out.println("Woof woof!");
+    }
 
     public void doCommand(){
         System.out.println(this.command);

@@ -11,15 +11,15 @@ class Animal{
 
 }
 
-class Mammal{
+class Mammal extends Animal{
     int limbs = 4;
 }
 
-class Pet{
+class Pet extends Mammal{
     String behaviour = "domestic";
 }
 
-class Dog{
+class Dog extends Pet{
     public void say(){
         System.out.println("I am a dog!");
         System.out.println("I have " + this.limbs + " limbs!");
