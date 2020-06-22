@@ -13,6 +13,8 @@ public class Task2 {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Введите 5 чисел:");
 
+        Integer.parseInt(bufferedReader.readLine());
+
         ArrayList<Integer> list = new ArrayList<>();
 
         calculateProduct(list);
