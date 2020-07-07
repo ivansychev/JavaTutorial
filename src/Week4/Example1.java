@@ -10,6 +10,7 @@ public class Example1 {
 
 class Cat{
     static String name = "Barsik";
+    int x = 0;
 
     public static void sayName(){
         System.out.println(name);
