@@ -28,6 +28,7 @@ public class Lecture {
 }
 
 class Car{
+    int y = 0;
     int wheels = 4;
     int doors = 4;
     int topSpeed = 200;
